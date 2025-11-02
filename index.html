@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Mass Reporter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Player Mass Reporter</h1>
+        <form id="reportForm">
+            <label for="playerIds">Player IDs (comma-separated):</label>
+            <input type="text" id="playerIds" required>
+            <label for="reason">Reason for Reporting:</label>
+            <input type="text" id="reason" required>
+            <button type="submit">Start Reporting</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
